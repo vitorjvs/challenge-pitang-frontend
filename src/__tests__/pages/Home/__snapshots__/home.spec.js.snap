@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page must render 1`] = `
+<DocumentFragment>
+  <div
+    class="mt-5 container-fluid"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="card-header"
+      >
+        <div
+          class="card-title h5"
+        >
+          <center>
+            Olá, seja bem-vindo! Preencha as informações abaixo para confirmar o seu agendamento da vacinação contra a COVID-19.
+          </center>
+        </div>
+      </div>
+      <div
+        class="card-body"
+      >
+        <form
+          action="#"
+          class="mt-5"
+        >
+          <div
+            class="container"
+          >
+            <div
+              class="justify-content-md-center row"
+            >
+              <div
+                class="col-md-3"
+              >
+                <label
+                  for="name"
+                >
+                  <b>
+                    Nome
+                  </b>
+                </label>
+              </div>
+              <div
+                class="col"
+              >
+                <input
+                  class="text-input"
+                  name="name"
+                  placeholder="Insira seu nome"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <br />
+          <div
+            class="container"
+          >
+            <div
+              class="justify-content-md-center row"
+            >
+              <div
+                class="col-md-3"
+              >
+                <label
+                  for="birthDate"
+                >
+                  <b>
+                    Data de nascimento
+                  </b>
+                </label>
+              </div>
+              <div
+                class="col"
+              >
+                <div
+                  class="react-datepicker-wrapper"
+                >
+                  <div
+                    class="react-datepicker__input-container"
+                  >
+                    <input
+                      class=""
+                      name="birthDate"
+                      placeholder="Insira sua data de nascimento"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div
+            class="container"
+          >
+            <div
+              class="justify-content-md-center row"
+            >
+              <div
+                class="col-md-3"
+              >
+                <label
+                  for="appointmentTime"
+                >
+                  <b>
+                    Data do agendamento
+                  </b>
+                </label>
+              </div>
+              <div
+                class="col"
+              >
+                <div
+                  class="react-datepicker-wrapper"
+                >
+                  <div
+                    class="react-datepicker__input-container"
+                  >
+                    <input
+                      class=""
+                      name="appointmentTime"
+                      placeholder="Selecione o dia e horário do seu agendamento"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="mt-5 text-center float-right btn btn-primary"
+            type="submit"
+          >
+            Confirmar Agendamento
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppointmentList Page must render 1`] = `
+<DocumentFragment>
+  <div
+    class="mt-5 container-fluid"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="card-header"
+      >
+        <div
+          class="card-title h5"
+        >
+          <center>
+            Lista de agendamentos das vacinações contra o COVID-19
+          </center>
+        </div>
+      </div>
+      <div
+        class="card-body"
+      >
+        <form
+          action="#"
+          class="mt-5"
+        >
+          <div
+            class="container"
+          >
+            <div
+              class="justify-content-md-center row"
+            >
+              <div
+                class="col-md-3"
+              >
+                <label
+                  for="filterDate"
+                >
+                  <b>
+                    Caso deseje, filtre por data:
+                  </b>
+                </label>
+              </div>
+              <div
+                class="col"
+              >
+                <div
+                  class="react-datepicker-wrapper"
+                >
+                  <div
+                    class="react-datepicker__input-container"
+                  >
+                    <input
+                      class=""
+                      name="filterDate"
+                      placeholder="Filtre a lista de vacinações programadas por data"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <button
+              class="text-center float-right mt-3 mb-custom btn btn-secondary"
+              type="reset"
+            >
+              Remover Filtro
+            </button>
+            <button
+              class="text-center float-right mt-3 mr-3 mb-custom btn btn-primary"
+              type="submit"
+            >
+              Filtrar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,47 @@
+div .error{
+    color : red;
+    font-size: 80%;
+}
+
+input {
+    width: 100%;
+}
+
+.react-datepicker-wrapper{
+    width: 100%;
+}
+
+#completed-message {
+    color: green;
+    font-size: 80%;
+}
+
+#pending-message{
+    color:orange;
+    font-size: 80%;
+}
+
+thead {
+    background-color: rgb(246, 250, 253);
+}
+
+
+
+.table > thead > tr > th {
+    vertical-align: middle
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle
+}
+
+/*th,td{
+    vertical-align: middle !important;
+}*/
+
+.mb-custom {
+    margin-bottom: 5rem;
+}
+
+
+
