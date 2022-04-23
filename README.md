@@ -36,4 +36,4 @@
 
 # .env
 
-REACT_APP_API_BASE_URL= Your own localhost api url# challenge-pitang-backend
+REACT_APP_API_BASE_URL= Your own localhost api url
